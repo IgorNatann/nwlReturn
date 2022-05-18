@@ -8,6 +8,8 @@
 --primary-color:hsl(170, 100%, 26%);
 --headline:hsl(210, 11%, 15%);
 --paragraph:hsl(210, 9%, 31%);
+--colorwhite: hsl(0, 0%, 100%);
+--brand-beige: hsl(39, 100%, 97%);
 
 
   font-size: 62.5%; /* 1rem = 10px */
@@ -55,10 +57,40 @@ p {
 button {
   background-color: var(--primary-color);
   
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+
+  margin-left: auto;
+  margin-right: auto;
 
   border: none;
-  border-radius: 0.8rem;
+  border-radius: 4rem;
 
   margin-bottom: 6rem;
+
+  width: 26.3rem;
   height: 6.2rem;
+
+  color: var(--colorwhite);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1.4rem;
+}
+
+
+.stats {
+  width: 32.7rem;
+  height: 47rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+
+  background-color: var(--brand-beige);
+  color: var();
+
+  margin-inline: auto; /* Substitui margin-right e margin-left*/
 }
